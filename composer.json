@@ -1,0 +1,39 @@
+{
+    "name": "pxlrbt/faker-better-unique",
+    "description": "Allows keys for unique faker values",
+    "keywords": [
+        "faker",
+        "fakerphp",
+        "laravel"
+    ],
+    "homepage": "https://github.com/pxlrbt/faker-better-unique",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dennis Koch",
+            "email": "info@pixelarbeit.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.9",
+        "illuminate/contracts": ">=5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pxlrbt\\FakerBetterUnique\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "pxlrbt\\FakerBetterUnique\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
